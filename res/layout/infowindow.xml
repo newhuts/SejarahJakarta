@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout1"
+        android:layout_width="300dp"
+        android:layout_height="100dp" >
+
+        <FrameLayout
+            android:id="@+id/FrameLayout1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:background="@color/Aquamarine" >
+
+            <ImageView
+                android:id="@+id/kateimg"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="centerCrop" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/FrameLayout2"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true" >
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="top|center"
+                android:gravity="center"
+                android:maxWidth="175dp"
+                android:textColor="@color/Belize_hole"
+                android:textStyle="bold"
+                android:typeface="monospace" />
+
+            <TextView
+                android:id="@+id/snipet"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="bottom|center"
+                android:gravity="center"
+                android:textColor="@color/Gray" />
+
+        </FrameLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

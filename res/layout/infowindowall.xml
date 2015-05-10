@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+
+    <AbsoluteLayout
+        android:id="@+id/AbsoluteLayout1"
+        android:layout_width="300dp"
+        android:layout_height="50dp" >
+
+        <FrameLayout
+            android:id="@+id/FrameLayout1"
+            android:layout_width="50dp"
+            android:layout_height="fill_parent"
+            android:background="@color/Aquamarine" >
+
+            <ImageView
+                android:id="@+id/kateimg"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:scaleType="centerCrop" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/FrameLayout2"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <TextView
+                android:id="@+id/snipetall"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="bottom|center"
+                android:gravity="center"
+                android:textColor="@color/Gray" />
+
+            <TextView
+                android:id="@+id/titleall"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="50dp"
+                android:gravity="center"
+                android:textColor="@color/Belize_hole"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+        </FrameLayout>
+    </AbsoluteLayout>
+
+</LinearLayout>

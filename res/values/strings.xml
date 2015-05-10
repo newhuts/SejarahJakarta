@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SejarahJakarta</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+ 	<integer-array name="kategori">
+        <item >@drawable/map</item>
+        <item >@drawable/kate1</item>
+        <item >@drawable/kate2</item>
+        <item >@drawable/kate3</item>
+        <item >@drawable/kate4</item>
+        <item >@drawable/kate5</item>
+	</integer-array>
+    <integer-array name="wisata">
+        <item >@drawable/wisata0</item>
+        <item >@drawable/wisata1</item>
+        <item >@drawable/wisata2</item>
+        <item >@drawable/wisata3</item>
+        <item >@drawable/wisata4</item>
+        <item >@drawable/wisata5</item>
+        <item >@drawable/wisata6</item>
+        <item >@drawable/wisata7</item>
+        <item >@drawable/wisata8</item>
+        <item >@drawable/wisata9</item>
+        <item >@drawable/wisata10</item>
+        <item >@drawable/wisata11</item>
+        <item >@drawable/wisata12</item>
+        <item >@drawable/wisata13</item>
+        <item >@drawable/wisata14</item>
+        <item >@drawable/wisata15</item>
+        <item >@drawable/wisata16</item>
+        <item >@drawable/wisata17</item>
+        <item >@drawable/wisata18</item>
+        <item >@drawable/wisata19</item>
+        <item >@drawable/wisata20</item>
+        <item >@drawable/wisata21</item>
+        <item >@drawable/wisata22</item>
+        <item >@drawable/wisata23</item>
+        <item >@drawable/wisata24</item>
+        <item >@drawable/wisata25</item>
+        <item >@drawable/wisata26</item>
+        <item >@drawable/wisata27</item>
+        <item >@drawable/wisata28</item>
+        <item >@drawable/wisata29</item>
+        <item >@drawable/wisata30</item>
+        <item >@drawable/wisata31</item>
+        <item >@drawable/wisata32</item>
+        <item >@drawable/wisata33</item>
+        <item >@drawable/wisata34</item>
+        <item >@drawable/wisata35</item>
+        <item >@drawable/wisata36</item>
+        <item >@drawable/wisata37</item>
+	</integer-array>
+</resources>
